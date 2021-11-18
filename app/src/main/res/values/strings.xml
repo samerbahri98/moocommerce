@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MooCommerce</string>
+    <string name="btnAddItem">Add Item</string>
+    <string name="btnDescriptionAddItem">Add Item</string>
+    <string name="btnDeleteAll">Delete All Items</string>
+    <string name="btnDescriptionDeleteAll">Delete All Items</string>
+</resources>
