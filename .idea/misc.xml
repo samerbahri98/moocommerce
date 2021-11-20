@@ -5,16 +5,24 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.37135416666666665" />
         <entry key="app/src/main/res/drawable/Logo_background.xml" value="0.37135416666666665" />
+        <entry key="app/src/main/res/drawable/books.xml" value="0.22" />
+        <entry key="app/src/main/res/drawable/electronics.xml" value="0.21354166666666666" />
+        <entry key="app/src/main/res/drawable/food.xml" value="0.21354166666666666" />
+        <entry key="app/src/main/res/drawable/ic_delete_light.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/drawable/ic_drag.xml" value="0.9" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.37135416666666665" />
         <entry key="app/src/main/res/drawable/list_divider.xml" value="0.1984375" />
+        <entry key="app/src/main/res/drawable/list_item_layout_bg.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/drawable/logo_background.xml" value="0.21354166666666666" />
+        <entry key="app/src/main/res/layout/activity_add_item.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35520833333333335" />
         <entry key="app/src/main/res/layout/activity_shopping_list.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="app/src/main/res/layout/list_driver.xml" value="0.18229166666666666" />
         <entry key="app/src/main/res/layout/list_item_layout.xml" value="0.18229166666666666" />
         <entry key="app/src/main/res/layout/list_view.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/shopping_rc_item.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/shopping_rv_item.xml" value="0.33" />
         <entry key="app/src/main/res/layout/splash.xml" value="0.22" />
         <entry key="app/src/main/res/menu/top_app_bar.xml" value="0.35520833333333335" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.37135416666666665" />
