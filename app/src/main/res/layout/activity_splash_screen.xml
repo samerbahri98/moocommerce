@@ -9,14 +9,14 @@
         android:id="@+id/imageView3"
         android:layout_width="160dp"
         android:layout_height="160dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@+id/slogan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/logo" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/slogan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Like WooCommerce but worse"
@@ -24,4 +24,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView3" />
+
+    <TextView
+        android:id="@+id/tv_name_neptun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Samer Bahri  |  OWYUL7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/slogan"
+
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

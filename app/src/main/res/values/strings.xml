@@ -4,6 +4,7 @@
     <string name="btnDescriptionAddItem">Add Item</string>
     <string name="btnDeleteAll">Delete All Items</string>
     <string name="btnDescriptionDeleteAll">Delete All Items</string>
+    <string name="btnReturn">Return</string>
     <string-array name="categories">
         <item>food</item>
         <item>electronics</item>

@@ -9,6 +9,7 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import com.thebahrimedia.moocommerce.adapter.ShoppingItemAdapter
+import com.thebahrimedia.moocommerce.db.AppDb
 
 class SwipeToDeleteCallback : ItemTouchHelper.SimpleCallback{
     lateinit var itemAdapter: ShoppingItemAdapter;

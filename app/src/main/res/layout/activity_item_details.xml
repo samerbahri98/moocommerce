@@ -22,91 +22,81 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <!--        app:layout_constraintTop_toTopOf="parent" -->
-        />
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:id="@+id/iv_category"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        app:srcCompat="@drawable/car" />
 
-    <EditText
+    <TextView
+        android:layout_marginTop="20dp"
         android:id="@+id/tv_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:ems="10"
-        android:hint="Item Name"
-        android:inputType="textPersonName"
+        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/iv_category"
+        android:textSize="30sp" />
 
-    <Spinner
-        android:id="@+id/ddv_category"
-        android:layout_width="200dp"
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:spinnerMode="dropdown"
-
-
+        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_name" />
 
-    <EditText
-        android:id="@+id/mltv_description"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:hint="Item Description"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ddv_category" />
-
-    <Switch
-        android:id="@+id/swv_is_purchased"
+    <TextView
+        android:id="@+id/tv_price_huf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Is Purchased"
+        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mltv_description" />
-
-    <EditText
-        android:id="@+id/nv_price"
+        app:layout_constraintTop_toBottomOf="@+id/tv_description" />
+    <TextView
+        android:id="@+id/tv_price_eur"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:hint="Price"
-        android:ems="10"
-        android:inputType="numberDecimal"
+        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/swv_is_purchased" />
-
-    <Button
-        android:id="@+id/btn_submit"
+        app:layout_constraintTop_toBottomOf="@+id/tv_price_huf" />
+    <TextView
+        android:id="@+id/tv_price_aud"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Submit"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_cancel"
-        app:layout_constraintTop_toBottomOf="@+id/nv_price" />
-
-    <Button
-        android:id="@+id/btn_cancel"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/purple_500"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Cancel"
+        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn_submit"
-        app:layout_constraintTop_toBottomOf="@+id/nv_price" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_price_eur" />
+
+    <TextView
+        android:id="@+id/tv_price_jpy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_price_aud" />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/isPurchased"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_price_jpy" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

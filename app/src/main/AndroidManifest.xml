@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.thebahrimedia.moocommerce">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/logo"
@@ -9,6 +11,9 @@
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MooCommerce">
+        <activity
+            android:name=".ItemDetailsActivity"
+            android:exported="false" />
         <activity
             android:name=".AddItemActivity"
             android:exported="false" />
@@ -23,8 +28,8 @@
         </activity>
         <activity
             android:name=".ShoppingListActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"
+            android:launchMode="singleTop"></activity>
     </application>
 
 </manifest>
